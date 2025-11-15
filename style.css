@@ -1,0 +1,114 @@
+/* BACKGROUND */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('food-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* GLASS EFFECT */
+.glass {
+    background: rgba(8, 12, 192, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* NAVBAR */
+.navbar {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar h1 {
+    color: rgb(17, 17, 17);
+    margin: 0;
+    font-size: 40px;
+}
+
+.menu a {
+    margin: 0 15px;
+    color: #353a4d;
+    text-decoration: none;
+    font-size: 20px;
+    transition:0.3s;
+}
+
+.menu a:hover {
+    color: #110303;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    margin: 80px auto;
+    width: 60%;
+    padding: 40px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: rgb(136, 15, 15);
+}
+
+.hero p {
+    font-size: 20px;
+    color: #5a274d86;
+    width: 80%;
+    margin: auto;
+}
+
+/* BUTTONS */
+.btn, .btn2 {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(8, 10, 1);
+    transition: 0.4s;
+}
+
+.btn {
+    background: linear-gradient(45deg, #4caf50, #2e7d32);
+}
+
+.btn2 {
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+}
+
+.btn:hover, .btn2:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* INFO SECTION */
+.info {
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.info h3 {
+    font-size: 28px;
+    color: rgb(17, 16, 16);
+}
+
+.info p {
+    font-size: 18px;
+    color: #380d0d;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: rgba(43, 8, 24, 0.719);
+    margin-top: 30px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
+}
